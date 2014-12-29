@@ -5,11 +5,14 @@ import sys
 def makeDirectory(directory_name):
     if not os.path.exists(directory_name):
         os.makedirs(directory_name)
+    else:
+        print "Directory already exists"
 
 
 def run(directory_name):
-    dirToMake = "%s/%s/" % ( os.getcwd() ,  directory_name)
-    print "DIR to make %s"  % directory_name
+    dir_path = "%s/%s/" % ( os.getcwd(),  directory_name)
+    print "DIR to make %s"  % dir_path
+    makeDirectory(dir_path)
 
 
 def main():
