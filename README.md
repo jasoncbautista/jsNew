@@ -1,0 +1,4 @@
+jsNew
+=====
+
+Creates a simple new folder, inits a new repo in git, adds a readme, a simple little project  to save time creating index.html, jquery, etc
