@@ -1,4 +1,5 @@
-#!/usr/local/bin/python
+#!/usr/bin/python
+
 import os
 import sys
 
@@ -32,7 +33,7 @@ def run(directory_name):
 
     # Now we copy our templtes folder
     os.system("cp -rf jsNew/template/* .")
-    os.system("rm jsNew")
+    os.system("rm -rf jsNew")
 
 
 
