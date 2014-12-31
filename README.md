@@ -12,5 +12,5 @@ Creates a simple new folder, inits a new repo in git, adds a readme, a simple li
 
 TODOS:
 
-[ ] git init
-[ ] git add --all
+[x] git init
+[x] git add --all
